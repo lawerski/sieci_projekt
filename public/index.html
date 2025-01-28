@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serwer WWW</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Serwer WWW</h1>
+
+  <h2>Przesyłanie plików</h2>
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" id="fileInput">
+    <button type="submit">Wyślij plik</button>
+  </form>
+  <p id="uploadResult"></p>
+
+  <hr>
+
+  <h2>Dostępne pliki</h2>
+  <button id="loadFilesButton">Załaduj dostępne pliki</button>
+  <ul id="fileList"></ul>
+
+  <script src="/client.js"></script>
+</body>
+</html>

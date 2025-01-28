@@ -1,0 +1,12 @@
+Wybrany Temat :
+4. [5] Napisz program w wybranym języku programowania, który implementuje prosty serwer
+WWW. Implementacja powinna być zrealizowana na gniazdach. Serwer powinien pozwalać
+na jednoczesny dostęp do zasobów dla wielu użytkowników. Dane zwracane przez serwer
+powinny być tylko plikami statycznymi (*.txt, *.html).
+
+Opis Projektu:
+Celem projektu jest stworzenie prostego serwera WWW w języku Node.js, który będzie obsługiwał równoczesne żądania HTTP od wielu użytkowników. Serwer będzie udostępniał tylko pliki statyczne, takie jak pliki HTML i TXT, a komunikacja między serwerem a klientem będzie realizowana za pomocą gniazd przy wykorzystaniu biblioteki socket.io. Serwer będzie obsługiwał wiele jednoczesnych połączeń, co umożliwi równoczesny dostęp do zasobów.
+
+Serwer będzie nasłuchiwał na porcie 3000 i obsługiwał zapytania klientów w czasie rzeczywistym. Klient, za pomocą przeglądarki internetowej, będzie mógł wysyłać żądania do serwera, aby pobrać pliki statyczne (np. pliki tekstowe .txt lub pliki HTML .html). Gdy klient wyśle zapytanie o konkretny plik, serwer odczyta go z systemu plików i zwróci zawartość do klienta przez gniazda. W przypadku, gdy plik nie istnieje lub wystąpi błąd, serwer zwróci komunikat o błędzie.
+
+
